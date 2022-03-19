@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    
+}
+.main_part{
+    width: 80%;
+    height: 80%;
+    /* background-color: aliceblue; */
+    margin-left: 10%;
+    margin-top: 5%;
+    background: rgba(95, 94, 94, 0.25);
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba(119, 116, 116, 0.18);
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    width: 95%;
+    height: 90%;
+    /* background-color: aquamarine; */
+    border: 1px solid #acc5ee;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    border-radius: 1.5%;
+}
+.nav_content{
+    width: 80%;
+    height: 12%;
+    margin: auto;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav h3 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav{
+    line-height: 50px;
+    font-family: 'Poiret One', cursive;
+    /* font-family: 'Orbitron', sans-serif; */
+    letter-spacing: 2px;
+}
+
+.info_container{
+    width: 90%;
+    height: 75%;
+    /* background-color: cadetblue; */
+    margin-left: 4.5%;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.info_pic{
+    width: 24%;
+    height: 65%;
+    border-radius: 50%;
+    border: 4px dotted #5772b3;
+    /* background-color:azure; */
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.info_data{
+    width: 55%;
+    height: 80%;
+    
+    /* background-color: cornflowerblue; */
+}
+
+.info_pic_info{
+    width: 90%;
+    height: 90%;
+    border: 5px dotted #4f6fbb;
+    /* background-color: darkblue; */
+    border-radius: 50%;
+    margin-left: 4%;
+    margin-top: 3.5%;
+    overflow: hidden;
+    background-size: cover;
+    
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+
+.info_dates{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    margin-left: 4%;
+    margin-top: 3.5%;
+    border: 2px solid #415a94;
+    object-fit: cover;
+   object-position: 15% 100%;
+    overflow: hidden;
+}
+
+
+.info_title{
+    width: 100%;
+    height: 100%;
+    /* background-color: darkorange; */
+    
+}
+.title_hed{
+    width: 90%;
+    height: 20%;
+    /* background-color: darkmagenta; */
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+    text-indent: 8px;
+    color: #ece8e8;
+}
+.details{
+    width: 100%;
+    height: 60%;
+    /* background-color: darkkhaki; */
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5%;
+    color: #ece8e8;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.info_btn{
+    width: 40%;
+    height: 60px;
+    background-color:rgb(18, 15, 20);
+}
+
+.btn{
+    width: 40%;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 20%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+.slider{
+    width: 80%;
+    /* height: 600px; */
+    background-color: #434343;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.skill{
+    width: 23%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* background-color: #ddd6d6; */
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(119, 120, 129, 0.37);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+.skill_img{
+    width: 100%;
+}
