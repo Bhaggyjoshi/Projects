@@ -1,4 +1,5 @@
 import './App.css';
+import axios from 'axios';
 import api from './api/axiosConfig';
 import {useState, useEffect} from 'react';
 import Layout from './components/Layout';
@@ -19,11 +20,8 @@ function App() {
     
     try
     {
-
       const response = await api.get("/api/v1/movies");
-
       setMovies(response.data);
-
     } 
     catch(err)
     {
