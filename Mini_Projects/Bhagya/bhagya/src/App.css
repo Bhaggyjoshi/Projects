@@ -64,6 +64,7 @@ button {
     margin-top: 40px;
     width: 100%;
     height: 100vh;
+    position: relative;
     /* background-color: blueviolet; */
 }
 .content{
@@ -98,6 +99,7 @@ button {
     width: 100%;
     height: 500px;
     margin-top: 60px;
+   
     background-color: #2D9596;
 }
 
@@ -118,6 +120,114 @@ button {
     padding-top: 30px;
     text-align: center;
 }
+
+/* .gallery{
+    width: 100%;
+    /* background-color: #2a333f; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery>h1{
+    font-size: 44px;
+    font-weight: 700;
+    font-family:  'Poppins', sans-serif;
+    text-align: center;
+    line-height: 2.5;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: "50px 50px 50px 50px";
+    grid-template-rows: auto;
+    grid-template-areas:
+     "img-1 img-2 img-3 img-4"
+    " img-5 img-5 img-6 img-6"
+    "img-7 img-7 img-6 img-6";
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.img-1{
+    width: 200px;
+    height: 250px;
+    grid-area: img-1;
+}
+.img-2{
+    width: 270px;
+    height: 200px;
+    grid-area: img-2;
+}
+.img-3{
+    width: 270px;
+    height: 250px;
+    grid-area: img-3;
+}
+.img-4{
+    width: 270px;
+    height: 250px;
+    grid-area: img-4;
+}
+.img-5{
+    width: 400px;
+    height: 250px;
+    grid-area: img-5;
+}
+.img-6{
+    width: 570px;
+    height: 530px;
+    grid-area: img-6;
+}
+.img-7{
+    width: 570px;
+    height: 250px;
+    grid-area: img-7;
+} */
+
+.details{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;
+    
+    /* background-color: aqua; */
+}
+.details>h1{
+    font-size: 44px;
+    font-weight: 700;
+    padding-top: 10px;
+    font-family:  'Poppins', sans-serif;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.tech{
+    width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /* background-color: blue; */
+}
+.card{
+    box-shadow: 0.5rem 0.5rem #ccc, -0.5rem -0.5rem #2D9596;
+    align-items: center;
+    border: solid 1.5px #BFBFBF;
+    width: 450px;
+    height: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    
+    /* margin: 20px; */
+    /* background-color: #2D9596; */
+}
+.card>img{
+    width: 80px;
+    height: 200px;
+    /* border-radius: 50px; */
+    background-color: #2D9596;
+}
+
 
 .foot{
     width: 100%;

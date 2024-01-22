@@ -1,5 +1,6 @@
-import React from "react";
+import React from "react"
 import impo from "../Images/woman.png"
+
 
 export default function Home(){
     return(
@@ -21,6 +22,39 @@ export default function Home(){
                     and collaborated with talented people to create digital products 
                     <br/>for both business and consumer use.I'm quietly confident, naturally curious, and
                      <br/>perpetually working on improving my chops one design problem at a time.</p>
+            </div>
+
+            
+
+            <div className="details">
+
+                <h1>Tech Stack</h1>
+
+                <div className="tech">
+
+                    <div className="card">
+                        <div className="card-info">
+                            <img alt="logo"/>
+                            <h1>Design</h1>
+                        </div>
+                    </div>
+
+                    <div className="card">
+                        <div className="card-info">
+                            <img alt="logo"/>
+                            <h1>Design</h1>
+                        </div>
+                    </div>
+                    
+                    <div className="card">
+                        <div className="card-info">
+                            <img alt="logo"/>
+                            <h1>Design</h1>
+                        </div>
+                    </div>
+                    
+
+                </div>
             </div>
 
             
